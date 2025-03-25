@@ -1,13 +1,25 @@
 import { useState } from "react"
 
 function toggle(){
-    const Toggle[toggle,setToggle]=useState(false);
-    setToggle=()=>{
+    const [toggle,setToggle]=useState(false);
+    setToggle=(toggle)=>{
+        if(!false){
+            backgroundColor:white
+        }
+        else 
+            backgroundColor:white
         
+    }
+    buttonhandler=()=>{
+        setInterval({
+
+        },30000)
+
     }
 return(
     <>
-     
+  
+  
     </>
 )
 
